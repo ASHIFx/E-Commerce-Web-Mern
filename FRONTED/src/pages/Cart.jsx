@@ -23,7 +23,7 @@ const Cart = () => {
           </button>
         </div>
       ) : (
-        <div className='flex flex-col lg:flex-row gap-5 my-10 '>
+        <div className='flex flex-col lg:flex-row gap-5 lg:my-10 my-2 '>
           <div className='flex flex-col gap-4 max-w-175 w-full'>
             {cartItems.map((item) => <CartItem key={item.productId} item={item} />)}
           </div>

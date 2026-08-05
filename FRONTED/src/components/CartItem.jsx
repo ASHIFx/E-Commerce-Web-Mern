@@ -15,7 +15,7 @@ const CartItem = ({ item }) => {
     };
 
     return (
-        <div className='flex min-w-190 bg-zinc-900 border-zinc-700 border rounded-xl px-10 py-7 hover:border-orange-500 hover:translate-x-1 duration-300 transition-all'>
+        <div className='flex max-w-190 bg-zinc-900 border-zinc-700 border rounded-xl px-10 py-7 hover:border-orange-500 hover:translate-x-1 duration-300 transition-all'>
             <img
                 src={item.imageUrl}
                 alt={item.name}

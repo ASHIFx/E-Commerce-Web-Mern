@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <div className='border-b-2 border-gray-900'>
-      <nav className='flex justify-between items-center m-8'>
+      <nav className='flex justify-between items-center m-8 lg:flex-row flex-col'>
         <div>
           <Link to="/" className='flex gap-3 items-center'>
             <img
@@ -36,7 +36,7 @@ const Navbar = () => {
             <span className="w-2 h-2 bg-orange-500 rounded-full inline-block"></span>
           </Link>
         </div>
-        <ul className='flex items-center text-xs text-gray-500 font-semibold lg:gap-10 gap-5  lg:text-lg'>
+        <ul className='flex items-center text-sm text-gray-500 font-semibold lg:gap-10 gap-2  lg:text-lg'>
           <li>
             <Link className='group relative hover:text-white hover:scale-105 transition-transform inline-block'
             to='/shop'

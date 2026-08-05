@@ -25,8 +25,8 @@ const HomePage = () => {
   return (
     <div className='px-4 py-7'>
       <div className='w-full h-[45vh] bg-linear-to-r from-black via-zinc-900 to-yellow-950 rounded-2xl p-12 text-center border border-orange-500/20 shadow-[0_0_60px_10px_rgba(251,146,60,0.1)] flex flex-col justify-center'>
-        <h1 className='text-white text-5xl font-bold'>Welcome to ShopNest</h1>
-        <p className='text-gray-300 mt-4'>Discover the best products at unbeatable prices.</p>
+        <h1 className='text-white text-3xl lg:text-5xl font-bold'>Welcome to ShopNest</h1>
+        <p className='text-gray-300 mt-4 lg:text-md text-sm'>Discover the best products at unbeatable prices.</p>
       </div>
 
       <div className='mt-10 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between'>

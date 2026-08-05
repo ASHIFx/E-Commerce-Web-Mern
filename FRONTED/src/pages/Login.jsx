@@ -43,7 +43,7 @@ const Login = () => {
   };
 
   return (
-    <div className='h-[75vh] flex justify-center items-center'>
+    <div className='h-[75vh] flex justify-center items-center lg:my-0 my-3'>
       <div className='bg-zinc-900 rounded-2xl p-10 w-full max-w-md border border-white/5 shadow-2xl'>
         <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
           <h2 className='text-white text-2xl font-bold text-center mb-4'>Welcome Back!</h2>
