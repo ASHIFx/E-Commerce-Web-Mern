@@ -83,6 +83,32 @@ Use these credentials when seeding or testing admin access:
 - Email: `admin@shopnest.com`
 - Password: `Admin@123`
 
+## Seed Script (seed.js)
+
+What it does:
+
+- Connects to your MongoDB database and clears sample collections (`users`, `products`, `orders`).
+- Creates two default users:
+   - Admin: `admin@shopnest.com` / `Admin@123` (role: `admin`, verified)
+   - Customer: `user@shopnest.com` / `Customer@123` (role: `user`, verified)
+- Inserts a small set of sample products (electronics, fashion, home items).
+- Creates a sample order for the seeded customer.
+
+Important notes:
+
+- Running the seed script will DELETE existing documents in the `users`, `products`, and `orders` collections. Use with caution on production databases.
+- Passwords displayed above are the plain-text values used by the seed script; they are hashed before being stored in the database.
+- Ensure `BACKEND/.env` (or your environment) has a valid `MONGO_URI` before running the script.
+
+How to run the seed script:
+
+```bash
+cd BACKEND
+npm run seed
+```
+
+After successful seeding the script prints a summary including the emails of created users, number of products inserted, and the created order id.
+
 ## Project Structure
 
 ### Backend
