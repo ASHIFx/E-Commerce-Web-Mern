@@ -36,7 +36,7 @@ const Navbar = () => {
             <span className="w-2 h-2 bg-orange-500 rounded-full inline-block"></span>
           </Link>
         </div>
-        <ul className='flex items-center text-sm text-gray-500 font-semibold lg:gap-10 gap-2  lg:text-lg'>
+        <ul className='flex items-center text-sm text-gray-500 font-semibold lg:gap-10 gap-4 mt-3  lg:text-lg'>
           <li>
             <Link className='group relative hover:text-white hover:scale-105 transition-transform inline-block'
             to='/shop'
