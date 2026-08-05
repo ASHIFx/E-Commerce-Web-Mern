@@ -32,11 +32,11 @@ const Navbar = () => {
               alt="ShopNest Logo"
               className='w-10 h-10 drop-shadow-[0_0_15px_rgba(251,146,60,0.6)] rounded-lg'
             />
-            <h1 className='font-bold text-2xl text-white'>ShopNest</h1>
+            <h1 className='font-bold text-2xl sm:text-lg text-white'>ShopNest</h1>
             <span className="w-2 h-2 bg-orange-500 rounded-full inline-block"></span>
           </Link>
         </div>
-        <ul className='flex items-center text-gray-500 font-semibold gap-10 text-lg'>
+        <ul className='flex items-center sm:text-xs text-gray-500 font-semibold gap-10 text-lg'>
           <li>
             <Link className='group relative hover:text-white hover:scale-105 transition-transform inline-block'
             to='/shop'
